@@ -1,0 +1,17 @@
+#include <iostream>
+
+int withdraw(current balance, withdrawal amount) 
+{
+    if (___)
+        return ___;
+    return ___;
+}
+
+int main() 
+{
+    int balance = 500, amount = 200;
+    balance = withdraw(balance, amount);
+    std::cout << "Balance after withdraw is: $" << balance << std::endl;
+
+    return 0;
+}
