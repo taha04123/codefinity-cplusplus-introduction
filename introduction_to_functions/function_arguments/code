@@ -1,15 +1,15 @@
 #include <iostream>
 
-int withdraw(current balance, withdrawal amount) 
+int withdraw(int current_balance, int withdrawal_amount) 
 {
-    if (___)
-        return ___;
-    return ___;
+    if (current_balance >= withdrawal_amount)
+        return current_balance - withdrawal_amount;
+    return current_balance;
 }
 
 int main() 
 {
-    int balance = 500, amount = 200;
+    int balance = 200, amount = 500;
     balance = withdraw(balance, amount);
     std::cout << "Balance after withdraw is: $" << balance << std::endl;
 
